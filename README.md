@@ -35,7 +35,7 @@ export nnUNet_results="/UU-Mamba/data/nnUNet_results"
 or
 ```python
 # An example to set other data path,
-base = '/UU-Mamba/data' # or you can set your own path, e.g., base = '/home/user_name/Documents/U-Mamba/data'
+base = '/UU-Mamba/data' # or you can set your own path, e.g., base = '/home/user_name/Documents/UU-Mamba/data'
 nnUNet_raw = join(base, 'nnUNet_raw') # or change to os.environ.get('nnUNet_raw')
 nnUNet_preprocessed = join(base, 'nnUNet_preprocessed') # or change to os.environ.get('nnUNet_preprocessed')
 nnUNet_results = join(base, 'nnUNet_results') # or change to os.environ.get('nnUNet_results')
