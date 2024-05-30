@@ -17,7 +17,7 @@ git clone https://github.com/tiffany9056/UU-Mamba.git
 ```
 4. cd U-Mamba/umamba and run pip install -e .
 ```bash
-cd UU-Mamba/umamba
+cd UU-Mamba/uumamba
 pip install -e
 ```
 
@@ -45,11 +45,11 @@ Verify that environment parameters are set: execute  `echo ${nnUNet_raw}` etc to
 ### Preprocessing
 1. Replace the new file of ACDC dataset conversion. The new file is located in folder [ACDC_code](). You need to execute the following lines (adapt the paths to the actual folders you intend to use).
 ```bash
-cp /UU-Mamba/ACDC_code/Dataset027_ACDC.py /UU-Mamba/umamba/nnunetv2/dataset_conversion/Dataset027_ACDC.py
+cp /UU-Mamba/ACDC_code/Dataset027_ACDC.py /UU-Mamba/uumamba/nnunetv2/dataset_conversion/Dataset027_ACDC.py
 ```
 2. Run the dataset conversion file `Dataset027_ACDC.py`.
 ```bash
-python /UU-Mamba/umamba/nnunetv2/dataset_conversion/Dataset027_ACDC.py -i /data/ACDC/database
+python /UU-Mamba/uumamba/nnunetv2/dataset_conversion/Dataset027_ACDC.py -i /data/ACDC/database
 ```
 3. Preprocess the data runing `nnUNetv2_plan_and_preprocess`, ACDC dataset ID `DATASET_ID` is 027.
 ```bash
