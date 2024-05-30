@@ -1,0 +1,1 @@
+Download pretrain weight [here](https://drive.google.com/drive/folders/1AQTtWgYsxX9KC_Xn8PApRKOfJnnowtBa?usp=sharing) and put it into `pretrain_weight` folder
