@@ -61,6 +61,10 @@ ACDC dataset ID `DATASET_ID` is 027.
 ```bash
 nnUNetv2_train DATASET_ID 3d_fullres all -tr nnUNetTrainerUMambaEnc
 ```
+If you want to use pretrained model, run
+```bash
+nnUNetv2_train DATASET_ID 3d_fullres all -tr nnUNetTrainerUMambaEnc -pretrained_weights /UU-Mamba/pretrain_weight/checkpoint_UU-Mamba.pth
+```
 
 ## Inference
 Predict testing cases with model
