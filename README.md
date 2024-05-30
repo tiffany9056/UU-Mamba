@@ -13,7 +13,7 @@ pip install causal-conv1d>=1.2.0 and pip install mamba-ssm --no-cache-dir
 ```
 3. Download code:
 ```bash
-git clone https://github.com/bowang-lab/U-Mamba (change)
+git clone https://github.com/tiffany9056/UU-Mamba.git
 ```
 4. cd U-Mamba/umamba and run pip install -e .
 ```bash
