@@ -61,7 +61,7 @@ ACDC dataset ID `DATASET_ID` is 027.
 ```bash
 nnUNetv2_train DATASET_ID 3d_fullres all -tr nnUNetTrainerUMambaEnc
 ```
-If you want to use pretrained model, run
+If you want to use pretrained model, download pretrain weight [here](https://drive.google.com/drive/folders/1AQTtWgYsxX9KC_Xn8PApRKOfJnnowtBa?usp=sharing) and put it into `pretrain_weight` folder, then run
 ```bash
 nnUNetv2_train DATASET_ID 3d_fullres all -tr nnUNetTrainerUMambaEnc -pretrained_weights /UU-Mamba/pretrain_weight/checkpoint_UU-Mamba.pth
 ```
