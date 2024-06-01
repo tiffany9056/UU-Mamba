@@ -1,4 +1,6 @@
 # UU-Mamba
+Ting Yu Tsai, Li Lin, Shu Hu, Ming-Ching Chang, Hongtu Zhu, Xin Wang
+_________________
 We introduce a new model UU-Mamba for segmenting cardiac MRI images. The model combines the U-Mamba model, an uncertainty-aware loss function, and the SAM optimizer.
 
 ## Installation
@@ -90,4 +92,16 @@ EVL_FOLDER -> /results/ # Where result csv file save.
 ```
 ```bash
 python /UU-Mamba/evaluation/ACDC_DSC_Eval.py --gt_path GT_LABEL --seg_path SEG_FOLDER --save_path EVL_FOLDER
+```
+
+## Citation
+Please kindly consider citing our papers in your publications. 
+```bash
+@article{lin2024robust,
+      title={Robust COVID-19 Detection in CT Images with CLIP}, 
+      author={Li Lin and Yamini Sri Krubha and Zhenhuan Yang and Cheng Ren and Xin Wang and Shu Hu},
+      year={2024},
+      eprint={2403.08947},
+      archivePrefix={arXiv},
+}
 ```
