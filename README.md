@@ -1,7 +1,10 @@
 # UU-Mamba
 Ting Yu Tsai, Li Lin, Shu Hu, Ming-Ching Chang, Hongtu Zhu, Xin Wang
-_________________
+
+This repository is the official implementation of our paper [UU-Mamba: Uncertainty-aware U-Mamba for Cardiac Image Segmentation](https://arxiv.org/abs/2405.17496).
+
 We introduce a new model UU-Mamba for segmenting cardiac MRI images. The model combines the U-Mamba model, an uncertainty-aware loss function, and the SAM optimizer.
+_________________
 
 ## Installation
 Requirements: `Ubuntu: 20.04`, `CUDA 11.8`
