@@ -97,11 +97,16 @@ python /UU-Mamba/evaluation/ACDC_DSC_Eval.py --gt_path GT_LABEL --seg_path SEG_F
 ## Citation
 Please kindly consider citing our papers in your publications. 
 ```bash
-@article{lin2024robust,
-      title={Robust COVID-19 Detection in CT Images with CLIP}, 
-      author={Li Lin and Yamini Sri Krubha and Zhenhuan Yang and Cheng Ren and Xin Wang and Shu Hu},
-      year={2024},
-      eprint={2403.08947},
-      archivePrefix={arXiv},
+@article{tsai2024uu,
+  title={UU-Mamba: Uncertainty-aware U-Mamba for Cardiac Image Segmentation},
+  author={Tsai, Ting Yu and Lin, Li and Hu, Shu and Zhu, Hongtu and Wang, Xin and others},
+  journal={arXiv preprint arXiv:2405.17496},
+  year={2024}
+}
+@article{wang2024artificial,
+  title={Artificial Intelligence in Image-based Cardiovascular Disease Analysis: A Comprehensive Survey and Future Outlook},
+  author={Wang, Xin and Zhu, Hongtu},
+  journal={arXiv:2402.03394},
+  year={2024}
 }
 ```
