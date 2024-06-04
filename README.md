@@ -1,7 +1,7 @@
 # UU-Mamba
 Ting Yu Tsai, Li Lin, Shu Hu, Ming-Ching Chang, Hongtu Zhu, Xin Wang
 
-This repository is the official implementation of our paper [UU-Mamba: Uncertainty-aware U-Mamba for Cardiac Image Segmentation](https://arxiv.org/abs/2405.17496).
+This repository is the official implementation of our paper [UU-Mamba: Uncertainty-aware U-Mamba for Cardiac Image Segmentation](https://arxiv.org/pdf/2405.17496).
 
 We introduce a new model UU-Mamba for segmenting cardiac MRI images. The model combines the U-Mamba model, an uncertainty-aware loss function, and the SAM optimizer.
 _________________
@@ -100,11 +100,13 @@ python /UU-Mamba/evaluation/ACDC_DSC_Eval.py --gt_path GT_LABEL --seg_path SEG_F
 ## Citation
 Please kindly consider citing our papers in your publications. 
 ```bash
-@article{tsai2024uu,
-  title={UU-Mamba: Uncertainty-aware U-Mamba for Cardiac Image Segmentation},
-  author={Tsai, Ting Yu and Lin, Li and Hu, Shu and Zhu, Hongtu and Wang, Xin and others},
-  journal={arXiv preprint arXiv:2405.17496},
-  year={2024}
+@misc{tsai2024uumamba,
+      title={UU-Mamba: Uncertainty-aware U-Mamba for Cardiac Image Segmentation}, 
+      author={Ting Yu Tsai and Li Lin and Shu Hu and Ming-Ching Chang and Hongtu Zhu and Xin Wang},
+      year={2024},
+      eprint={2405.17496},
+      archivePrefix={arXiv},
+      primaryClass={eess.IV}
 }
 @article{wang2024artificial,
   title={Artificial Intelligence in Image-based Cardiovascular Disease Analysis: A Comprehensive Survey and Future Outlook},
