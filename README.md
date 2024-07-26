@@ -49,7 +49,7 @@ nnUNet_results = join(base, 'nnUNet_results') # or change to os.environ.get('nnU
 Verify that environment parameters are set: execute  `echo ${nnUNet_raw}` etc to print the environment variables. This will return an empty string if they were not set.
 
 ### Preprocessing
-1. Replace the new file of ACDC dataset conversion. The new file is located in folder [ACDC_code](). You need to execute the following lines (adapt the paths to the actual folders you intend to use).
+1. Replace the new file of ACDC dataset conversion. The new file is located [here](https://drive.google.com/drive/folders/1AQTtWgYsxX9KC_Xn8PApRKOfJnnowtBa?usp=sharing). You need to execute the following lines (adapt the paths to the actual folders you intend to use).
 ```bash
 cp /UU-Mamba/ACDC_code/Dataset027_ACDC.py /UU-Mamba/uumamba/nnunetv2/dataset_conversion/Dataset027_ACDC.py
 ```
