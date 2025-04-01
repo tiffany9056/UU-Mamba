@@ -25,6 +25,7 @@ git clone https://github.com/tiffany9056/UU-Mamba.git
 cd UU-Mamba/uumamba
 pip install -e
 ```
+A visualize the segmentation results produced by UU-Mamba on three datasets: ACDC, Aorta, and ImageCAS.
 <img src="https://github.com/user-attachments/assets/6ebf549b-3ab4-467e-a7dc-3c437d834193" width="330"/>
 <img src="https://github.com/user-attachments/assets/31ef0296-c787-46a7-95f7-277c77a7ade7" width="330"/>
 <img src="https://github.com/user-attachments/assets/5577c30f-503b-441c-bb06-51a26ef74b2c" width="330"/>
@@ -51,7 +52,7 @@ nnUNet_results = join(base, 'nnUNet_results') # or change to os.environ.get('nnU
 Verify that environment parameters are set: execute  `echo ${nnUNet_raw}` etc to print the environment variables. This will return an empty string if they were not set.
 
 ### Preprocessing
-1. Replace the new file of ACDC dataset conversion. The new file is located [here](https://drive.google.com/drive/folders/1AQTtWgYsxX9KC_Xn8PApRKOfJnnowtBa?usp=sharing). You need to execute the following lines (adapt the paths to the actual folders you intend to use).
+1. Replace the new file of ACDC, Aorta, ImageCAS dataset conversion. The new file is located [here](https://drive.google.com/drive/folders/1AQTtWgYsxX9KC_Xn8PApRKOfJnnowtBa?usp=sharing). You need to execute the following lines (adapt the paths to the actual folders you intend to use).
 ```bash
 cp /UU-Mamba/ACDC_code/Dataset027_ACDC.py /UU-Mamba/uumamba/nnunetv2/dataset_conversion/Dataset027_ACDC.py
 ```
@@ -59,13 +60,13 @@ cp /UU-Mamba/ACDC_code/Dataset027_ACDC.py /UU-Mamba/uumamba/nnunetv2/dataset_con
 ```bash
 python /UU-Mamba/uumamba/nnunetv2/dataset_conversion/Dataset027_ACDC.py -i /data/ACDC/database
 ```
-3. Preprocess the data runing `nnUNetv2_plan_and_preprocess`, ACDC dataset ID `DATASET_ID` is 027.
+3. Preprocess the data runing `nnUNetv2_plan_and_preprocess`, ACDC dataset ID `DATASET_ID` is 027; Aorta dataset ID `DATASET_ID` is 123; ImageCAS dataset ID `DATASET_ID` is 066.
 ```bash
 nnUNetv2_plan_and_preprocess -d DATASET_ID --verify_dataset_integrity
 ```
 
 ### Train model
-ACDC dataset ID `DATASET_ID` is 027.
+ACDC dataset ID `DATASET_ID` is 027; Aorta dataset ID `DATASET_ID` is 123; ImageCAS dataset ID `DATASET_ID` is 066.
 ```bash
 nnUNetv2_train DATASET_ID 3d_fullres all -tr nnUNetTrainerUMambaEnc
 ```
