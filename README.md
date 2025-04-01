@@ -25,7 +25,9 @@ git clone https://github.com/tiffany9056/UU-Mamba.git
 cd UU-Mamba/uumamba
 pip install -e
 ```
-https://github.com/tiffany9056/UU-Mamba/assets/39300518/5fcceb3a-0820-47a4-aeac-a83368102fd1
+<img src="https://github.com/user-attachments/assets/6ebf549b-3ab4-467e-a7dc-3c437d834193" width="330"/>
+<img src="https://github.com/user-attachments/assets/31ef0296-c787-46a7-95f7-277c77a7ade7" width="330"/>
+<img src="https://github.com/user-attachments/assets/5577c30f-503b-441c-bb06-51a26ef74b2c" width="330"/>
 
 ## Model Training
 Download dataset [here](https://humanheart-project.creatis.insa-lyon.fr/database/#collection/637218c173e9f0047faa00fb) and put them into the `data` folder.
