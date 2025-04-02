@@ -1,5 +1,4 @@
 # UU-Mamba
-Ting Yu Tsai, Li Lin, Shu Hu, Ming-Ching Chang, Hongtu Zhu, Xin Wang
 
 This repository is the official implementation of our paper [UU-Mamba: Uncertainty-aware U-Mamba for Cardiovascular Segmentation](https://arxiv.org/abs/2409.14305).
 
