@@ -118,4 +118,10 @@ Please kindly consider citing our papers in your publications.
       archivePrefix={arXiv},
       primaryClass={cs.AI}
 }
+@article{wang2024artificial,
+   title={Artificial Intelligence in Image-based Cardiovascular Disease Analysis: A Comprehensive Survey and Future Outlook},
+   author={Wang, Xin and Zhu, Hongtu},
+   journal={arXiv:2402.03394},
+   year={2024}
+ }
 ```
