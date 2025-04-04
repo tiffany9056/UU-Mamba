@@ -25,9 +25,9 @@ cd UU-Mamba/uumamba
 pip install -e
 ```
 A visualize the segmentation results produced by UU-Mamba on three datasets: ACDC, Aorta, and ImageCAS.
-<img src="https://github.com/user-attachments/assets/6ebf549b-3ab4-467e-a7dc-3c437d834193" width="300"/>
-<img src="https://github.com/user-attachments/assets/31ef0296-c787-46a7-95f7-277c77a7ade7" width="300"/>
-<img src="https://github.com/user-attachments/assets/6ef86811-ece0-4a89-bb8d-216f48c5de6e" width="300"/>
+<img src="https://github.com/tiffany9056/UU-Mamba/blob/main/visualize/visual_seg_ACDC.gif" width="300"/>
+<img src="https://github.com/tiffany9056/UU-Mamba/blob/main/visualize/visual_seg_Aorta.gif" width="300"/>
+<img src="https://github.com/tiffany9056/UU-Mamba/blob/main/visualize/visual_seg_ImageCAS.gif" width="300"/>
 
 ## Model Training
 Download dataset [here](https://humanheart-project.creatis.insa-lyon.fr/database/#collection/637218c173e9f0047faa00fb) and put them into the `data` folder.
